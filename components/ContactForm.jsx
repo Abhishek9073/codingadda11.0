@@ -62,7 +62,7 @@ export default function ContactForm() {
         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" className="border" />
         
         <label htmlFor="Message">Write Your Message</label>
-        <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Message" className="border"></textarea>
+        <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Message" className="border h-40"></textarea>
         <button className="bg-sky-700 p-3 text-white font-bold hover:bg-green-700" type="submit">Send</button>
       </form>
 
