@@ -10,11 +10,12 @@ const Header = () => {
         <div className="container mx-auto px-4 h-full ">
           <div className="flex justify-between items-center h-full ">
           <div  className="max-md:pl-16 ">
+          <Link href="/home">
           <Image
           src= {logo}
           alt="logo"
           width={180} />
-          
+          </Link>
 
           </div>
             <ul className="hidden md:flex gap-x-6 text-sky-700 text-base max-lg:text-xs">
