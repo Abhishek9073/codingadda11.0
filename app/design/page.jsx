@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import webdesign from '../../assets/webdesign.png'
+import webdesign from '../../assets/banner/webdesign.png'
 
 const page = () => {
   return (
