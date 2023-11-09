@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import contact from '../../assets/contactbanner.png'
+import contact from '../../assets/banner/contactbanner.png'
 import ContactForm from '../../components/ContactForm'
 
 const page = () => {

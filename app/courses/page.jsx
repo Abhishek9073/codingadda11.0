@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import papers from '../../assets/classes1.png'
+import papers from '../../assets/banner/classes1.png'
 import python from '../../assets/course/2.png';
 import java from '../../assets/course/1.png';
 import db from '../../assets/course/3.png';

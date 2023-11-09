@@ -2,9 +2,9 @@
 
 import React from 'react'
 import Image from 'next/image'
-import service1 from '../assets/3.png'
-import service2 from '../assets/2.png'
-import service3 from '../assets/1.png'
+import service1 from '../assets/services/3.png'
+import service2 from '../assets/services/2.png'
+import service3 from '../assets/services/1.png'
 import Link from 'next/link'
 
 const Services = () => {

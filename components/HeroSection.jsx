@@ -1,9 +1,9 @@
 'use client'
 
 import React, { Component } from "react";
-import banner1 from '../assets/banner5.png';
-import banner2 from '../assets/banner4.png';
-import banner3 from '../assets/banner6.png'
+import banner1 from '../assets/banner/banner5.png';
+import banner2 from '../assets/banner/banner4.png';
+import banner3 from '../assets/banner/banner6.png'
 import Image from "next/image";
 
 

@@ -1,14 +1,14 @@
 'use client'
 import React from 'react'
 import Image from "next/image"
-import telegram from '../assets/telegram.png';
-import youtube from '../assets/youtube.png';
-import facebook from '../assets/facebook.png';
-import gmail from '../assets/gmail1.png'
-import playstore from '../assets/playstore.png'
-import call from '../assets/telephone.png'
-import whatsapp from '../assets/whatsapp.png'
-import instagram from '../assets/instagram.png'
+import telegram from '../assets/logo/telegram.png';
+import youtube from '../assets/logo/youtube.png';
+import facebook from '../assets/logo/facebook.png';
+import gmail from '../assets/logo/gmail1.png'
+import playstore from '../assets/logo/playstore.png'
+import call from '../assets/logo/telephone.png'
+import whatsapp from '../assets/logo/whatsapp.png'
+import instagram from '../assets/logo/instagram.png'
 import Link from 'next/link'
 import map from '../assets/map.png'
 
@@ -18,10 +18,10 @@ const Footer = () => {
   <div className="bg-gray-700 justify-center items-center mt-16">
   <div className='flex flex-col sm:flex-row justify-around max-sm:items-center pt-10'>
   <div className='w-1/4  '>
-      <h1 className='text-sky-500 text-2xl text-left underline max-sm:text-lg'>Social links:</h1>
+      <h1 className='text-sky-500 text-lg text-left underline max-sm:text-sm'>Social links:</h1>
       <div className='pt-8  flex flex-row '>
     <Link href="https://t.me/+oOqPQbYTfb42ZGVl" target="_blank">
-    <Image className='mr-2 cursor-pointer'
+    <Image className='mx-2 cursor-pointer'
       src={telegram}
       alt='telegram'
       width={38}
@@ -61,10 +61,10 @@ const Footer = () => {
 
       <Link href="https://instagram.com/codingadda_?igshid=MmVlMjlkMTBhMg==" target='_blank'>
 
-      <Image className='mr-2'
+      <Image className='mx-2'
        src={instagram}
        alt='instagram'
-       width={40}
+       width={37}
       
       />
       </Link>
@@ -144,6 +144,7 @@ const Footer = () => {
       
       
        </div>
+       <div className='text-sky-500 font-normal my-6 max-sm:text-sm'><mark className='rounded-lg px-1 py-1'>Address:</mark> Bidhu Bhushan Sarkar Rd, Williams Town, Deoghar, Jharkhand 814112</div>
 
        </div>
 

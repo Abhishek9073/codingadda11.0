@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import projectbanner from "../../assets/projectbanner2.png";
+import projectbanner from "../../assets/banner/projectbanner2.png";
 
 const page = () => {
   return (

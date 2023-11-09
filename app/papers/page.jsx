@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import papers from '../../assets/paper2.png'
+import papers from '../../assets/banner/paper2.png'
 import cbse from '../../assets/boards/cbse.png'
 import icse from '../../assets/boards/icse.jpg'
 import ap from '../../assets/boards/ap.jpg'

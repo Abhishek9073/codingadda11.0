@@ -2,12 +2,12 @@
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import rev1 from "../assets/rev7.png";
-import rev2 from "../assets/rev5.png";
-import rev3 from "../assets/rev6.png";
-import rev4 from "../assets/rev3.png";
-import rev5 from "../assets/rev2.png";
-import rev6 from "../assets/rev4.png";
+import rev1 from "../assets/feedback/rev7.png";
+import rev2 from "../assets/feedback/rev5.png";
+import rev3 from "../assets/feedback/rev6.png";
+import rev4 from "../assets/feedback/rev3.png";
+import rev5 from "../assets/feedback/rev2.png";
+import rev6 from "../assets/feedback/rev4.png";
 
 
 import Image from "next/image";
