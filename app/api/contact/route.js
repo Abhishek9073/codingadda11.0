@@ -9,7 +9,7 @@ export async function POST(req){
 try {
   await connectDB(); 
   await Contact.create({fullname, phone, email, message});
-  return NextResponse.json({msg: ["Message sent successfully"], success:true});
+  return NextResponse.json({msg: ["Message sent successfully"], isSuccess:true});
 
 
 } catch (error) {
